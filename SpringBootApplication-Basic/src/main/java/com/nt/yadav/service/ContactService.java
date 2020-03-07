@@ -6,5 +6,8 @@ public class ContactService {
 		System.out.println("getContact Method is Executed");
 		return "Contact List Saved";
 	}
+	public int insertContacts() {
+		return 5;
+	}
 	
 }
