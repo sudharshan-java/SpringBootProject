@@ -23,5 +23,10 @@ public class Contact {
 	}
 	private String contactName;
 	private String contactAddrs;
-
+	@Override
+	public String toString() {
+		return "Contact [contactNumber=" + contactNumber + ", contactName=" + contactName + ", contactAddrs="
+				+ contactAddrs + "]";
+	}
+    
 }
