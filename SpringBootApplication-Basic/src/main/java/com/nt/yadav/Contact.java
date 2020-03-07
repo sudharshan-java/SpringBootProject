@@ -2,6 +2,7 @@ package com.nt.yadav;
 
 public class Contact {
 	
+	private String name;
 	private Integer contactNumber;
 	public Integer getContactNumber() {
 		return contactNumber;
